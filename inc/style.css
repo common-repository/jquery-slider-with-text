@@ -1,0 +1,10 @@
+.spininteractive-slider { /*border:1px solid #000;*/height:500px;overflow:hidden }
+.spininteractive-slider ul { /*border:1px solid red;*/position:relative;cursor:pointer;margin:0;padding:0;}
+.spininteractive-slider li { list-style-type:none;float:left }
+.spininteractive-slider li img { width:100% }
+.spininteractive-slider .description { padding:10px;background:url(images/bg.png);position:relative;top:-80px;height:100px;color:#FFF; }
+.spininteractive-slider .arrows { display:none;width:56px;height:56px;color:white;position:absolute;top:0;cursor:pointer; }
+.spininteractive-slider .arrow-left { left:0;margin-left:30px;background:url(images/arrows.png) no-repeat;background-position:-2px -35px; }
+.spininteractive-slider .arrow-left:hover { background-position:-124px -35px; }
+.spininteractive-slider .arrow-right { right:0;margin-right:30px;background:url(images/arrows.png) no-repeat;background-position:-65px -35px; }
+.spininteractive-slider .arrow-right:hover { background-position:-185px -35px; }
